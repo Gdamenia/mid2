@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:ital,wght@0,400;1,600&family=Barlow:wght@500;700;900&family=Big+Shoulders+Display:wght@900&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:ital,wght@0,400;1,600&family=Barlow:wght@500;700;900&family=Big+Shoulders+Display:wght@900&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Big Shoulders Display' ;
+    font-family: 'Outfit';
+}
+
+.container{
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h2{
+    font-family: 'Big Shoulders Display';
+    margin-left: 16px;
+    margin-top: 32px;
+    color: #151515;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 55px; 
+    text-transform: uppercase;
+}
+
+.pBox11{
+    margin-left: 16px;
+    margin-top: 32px;
+    width: 343px;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.button{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.buttoni{
+    margin-left: 16px;
+    background-color: #151515;
+    width: 204px;
+    height: 72px;
+    border: none;
+    border-radius: 2px;
+}
+
+.box2{
+    margin-top: 120px;
+}
+
+.box21{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic1{
+    height: 340px;
+}
+
+h3{
+    margin-top: 25px;
+    color: #151515;
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    text-transform: uppercase;
+    width: 343px;
+}
+
+.pBoxText{
+    margin-top: 21px;
+    color: #444444;
+    width: 343px;
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.grids{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+}
+
+.grid3{
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    width: 343px;
+    background-color: #151515;
+}
+h5{
+    margin-top: 48px;
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.pGrid{
+    margin-bottom: 47px;
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+    padding-left: 32px;
+    padding-bottom: 48px;
+    margin-top: 120px;
+    width: 375px;
+    background-color: #151515;
+}
+
+.footerPic{
+    margin-top: 48px;
+    width: 110.05px;
+    height: 40px;
+}
+
+.footerP{
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: white;
+    width: 311px;
+}
+
+.logo{
+    width: 100px;
+    height: 20px;
+}
+
+.beberi2{
+    display: none;
+}
+
+.pic1tab{
+    display: none;
+}
+.pic3tab{
+    display: none;
+}
+.pic2tab{
+    display: none;
+}
+.shavi{
+    display: none;
+}
+
+.beberides{
+    display: none;
+}
+.auravi{
+    display: none;
+}
+.didi{
+    display: none;
+}
+.xalxic{
+    display: none;
+}
+.skami{
+    display: none;
+}
+
+a{
+    font-family: 'Big Shoulders Display' ;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3.636px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    
+}
+
+.mapmob{
+    position: relative;
+}
+.pin{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    width: 66px;
+    height: 88px;
+}
+.buttonMap{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+}
+
+.buttonPic2{
+    rotate: 180deg;
+}
+
+.button2{
+    background-color: #151515;
+    width: 204px;
+    height: 72px;
+    border: none;
+    border-radius: 2px;
+}
+
+.boxmap{
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+}
+
+h1{
+    margin-top: 48px;
+    width: 343px;
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+h4{
+    margin-top: 48px;
+    color:  #D5966C;
+    font-family: 'Big Shoulders Display';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.mapText1{
+    margin-top: 20px;
+    color: White;
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px; 
+}
+
+.ebijo{
+    width: 343px;
+    margin-top: 20px;
+    color: White;
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px; 
+    margin-bottom: 56px;
+}
+
+.boxRame{
+    width: 375px;
+    background-color: #D5966C;
+    padding-left: 32px;
+}
+
+.mapshi{
+    margin-top: 48px;
+    color: #151515;
+}
+
+.mapshiP{
+    margin-top: 38px;
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #151515;
+    width: 311px;
+}
+
+.davigale{
+    margin-top: 38px;
+    margin-bottom: 48px;
+}
+
+.maptab{
+    display: none;
+}
+.mapdes{
+    display: none;
+}
+
+

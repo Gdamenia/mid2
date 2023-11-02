@@ -1,0 +1,384 @@
+@media (width > 768px){
+    .container{
+        width: 768px;
+        position: relative;
+    }
+
+    .beberi{
+        display: none;
+    }
+    .beberi2{
+        display: block;
+        margin-left: -326px;
+    }
+
+    .box11{
+        position: absolute;
+        top: 120px;
+        right:30px;
+    }
+
+    h2{
+        width: 339px;
+        font-size: 72px;
+        line-height: 70px
+    }
+
+    .pBox11{
+        width: 339px;
+    }
+
+    .box2{
+        column-gap: 64px;
+        padding-right: 40px;
+        padding-left: 40px;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 768px;
+    }
+
+    h3{
+        width: 223px;
+    }
+
+    .pBoxText{
+        width: 223px;
+    }
+
+    .grids{
+        margin-top: 11px;
+        grid-template-columns: auto auto;
+    }
+
+
+    .pic1{
+        display: none;
+    }
+    .pic1tab{
+        display: block;
+    }
+
+
+    .pic2Grid{
+        display: none;
+    }
+    .pic2tab{
+        display: block;
+    }
+
+
+    .pic3tab{
+        display: block;
+    }
+
+
+    .pic2tab{
+        display: block;
+        margin-top: -400px;
+        margin-left: 10px;
+    }
+    .pic3Grid{
+        display: none;
+    }
+
+
+    .grids{
+        position: relative;
+    }
+
+    .grid3{
+        position: absolute;
+        right: 0;
+        top: 323px;
+        width: 280px;
+    }
+    h5{
+        margin-top: 85px;
+    }
+    .pGrid{
+        margin-bottom: 85px;
+        width: 223px;
+    }
+    footer{
+        width: 768px;
+        flex-direction: row;
+    }
+
+    .footerP{
+        width: 280px;
+        margin-top: 56px;
+        margin-left: 65px;
+        height: 100px;
+    }
+
+    .logo{
+        margin-left: 133px;
+        margin-top: 56px;
+    }
+    .beberides{
+        display: none;
+    }
+    .auravi{
+        display: none;
+    }
+    .didi{
+        display: none;
+    }
+    .xalxic{
+        display: none;
+    }
+    .skami{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .main{
+        width: 768px;
+    }
+
+    .maptab{
+        display: block;
+        position: relative;
+
+    }
+    .mapmob{
+        display: none;
+    }
+
+    .boxmap{
+        flex-direction: row;
+    }
+    h1{
+        margin-top: 88px;
+        width: 223px;
+        font-size: 55px;
+        line-height: 50px
+    }
+    .box11map{
+        margin-left: 90px;
+    }
+
+    .boxRame{
+        width: 768px;
+        display: flex;
+        flex-direction: row;
+    }
+    .mapshi{
+        margin-top: -50px;
+    }
+    .mapshiP{
+        margin: 56px 110px 56px 65px;
+    }
+
+    .davigale{
+        margin-top: -25px;
+    }
+
+    .buttonPic2{
+       margin-left: 20px;
+    }
+    .mapdes{
+        display: none;
+    }
+    
+}
+
+
+
+
+@media (width > 1440px){
+    .container{
+        padding-left: 0;
+        width: 1440px;
+    }
+
+    .shavi{
+        left: 0px;
+        top: 1px;
+        position: absolute;
+        display: block;
+        width: 450px;
+        height: 800px;
+        background-color: #151515;
+    }
+
+    .beberides{
+        display: block;
+    }
+    .beberi2{
+        display: none;
+    }
+    h2{
+        display: none;
+    }
+    .auravi{
+        left: 128px;
+        top: 100px;
+        width: 514px;
+        position: absolute;
+        display: block;
+        color: white;
+        mix-blend-mode: exclusion;
+    }
+
+    .pBox11{
+        margin-right: 130px;
+        width: 350px;
+        font-size: 22px;
+        line-height: 32px; 
+    }
+
+    .box2{
+        width: 1440px;
+    }
+
+    h3{
+        width: 350px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .pBoxText{
+        font-size: 22px;
+        line-height: 32px;
+        width: 350px;
+    }
+    .textDiv{
+        margin-top: 40px;
+    }
+    .pic1tab{
+        display: none;
+    }
+    .didi{
+        margin-right: 125px;
+        margin-right: 164px;
+        display: block;
+    }
+   
+
+    .pic2tab{
+        display: none;
+    }
+    .xalxic{
+        width: 420px;
+        height: 313px;
+        position: absolute;
+        left: 115px;
+        top: 1px;
+        display: block;
+    }
+    .skami{
+        position: absolute;
+        right: -100px;
+        top: 11px;
+        display: block;
+    }
+    .pic3tab{
+        display: none;
+    }
+
+    .grid3{
+        width: 420px;
+        right: -535px;
+        top: 368px;
+    }
+
+    .pGrid{
+        margin-bottom: 64px;
+        width: 350px;
+        font-size: 19px;
+    }
+    h5{
+        margin-top: 65px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    footer{
+        margin-top: 935px;
+        width: 1440px;
+    }
+
+    .footerP{
+        width: 430px;
+        margin-left: 140px;
+    }
+
+    .footerPic{
+        margin-left: 165px;
+    }
+
+    .logo{
+        margin-left: 280px;
+    }
+
+
+
+    .main{
+        width: 1440px;
+    }
+
+    .mapdes{
+        display: block;
+    }
+    .maptab{
+        display: none;
+    }
+    .pin{
+        top: 33%;
+    }
+    .buttonPic2 {
+        margin-left: 150px;
+    }
+
+    h1{
+        font-size: 70px;
+        line-height: 70px;
+        margin-left: 165px;
+    }
+
+    .box11map {
+        margin-left: 350px;
+    }
+
+    h4{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .mapText1{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .ebijo{
+        font-size: 22px;
+        line-height: 32px;
+        width: 540px;
+    }
+
+    .boxRame{
+        width: 1440px;
+    }
+
+    .mapshi{
+        margin-left: 165px;
+        margin-top: 80px;
+        width: 159px;
+        height: 58px;
+    }
+
+    .mapshiP{
+        margin: 80px 260px 80px 140px;
+        width: 430px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+
+}
